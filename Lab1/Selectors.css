@@ -1,0 +1,74 @@
+*{
+    font-family: sans-serif;/* type of font and the line-height  */
+    line-height: 1.6;
+}
+body{
+    background-color:#f4f4f4 ;/* the background color of the page*/
+}
+h1,h2{
+    text-align: center;/* make the heading 1&2 in the center and coloring theme with blue */
+    color: #336699;
+}
+p{
+    margin-bottom: 1em;/* give to p margine with value 1em in bottom*/ 
+}
+#special{
+    background-color: #fffacd;/*coloring the background of all ellement that have ID special with #fffacd and giving for them 10px in badding  */
+    padding: 10px;
+}
+/* colorin all element that have the class hello with green and bolding the font */
+.hello{
+    color:  #28a745;
+    font-weight: bold;
+}
+/* transforming h2 the child of div with class main-content and class ai-tools and make it uppercase */
+div.main-content > h2 ,div.ai-tools > h2{
+    text-transform: uppercase;
+}
+/* styling the li element that decendent of the div element with the class ai-tools */
+div.ai-tools li{
+    list-style-type: square;
+}
+/* give padding to all the elements inside the the div with the ai-tools class */
+div.ai-tools ul{
+padding-left: 20px;
+}
+/*make a border and padding for the input of type text */
+input[type="text"]{
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+/*coloring background of input type submit with the blue and the title with a white */
+input[type="submit"]{
+    background-color: #007bff ;
+    color: white;
+}
+/* coloring a link with the blue */
+a{
+    color: #007bff;
+}
+/* */
+a:hover{
+    text-decoration: none;
+    color:#007bff94
+}
+/* */
+a:visited{
+    color:#6c757d ;
+}
+/* */
+input:focus{
+    border: 2px solid blue;
+}
+/* */
+div.ai-tools li.hello{
+    font-style: italic;
+}
+/* */
+footer h1{
+    font-size: 1.2em;
+}
+/* */
+h2{
+    font-size: 2em;
+}

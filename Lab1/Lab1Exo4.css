@@ -1,0 +1,27 @@
+*{
+    margin:50px;
+    background-color: hsl(120, 5%, 91%) ; 
+    color:#5d665b ;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: small;
+
+}
+body{
+    margin: 70px 50px 120px;
+}
+.first-heading{
+    font-size: 75%;
+}
+.first-paragraphe{
+    font-size: 70%;
+}
+.second-paragraphe{
+    font-size: 3em;
+}
+h1{
+    color:#ffffdd ;
+}
+h2{
+    color: #966b72 ;
+    font-family: Georgia;
+}
